@@ -6,6 +6,6 @@ utils.check_version((3,7))          # make sure we are running at least Python 3
 utils.clear()                       # clear the screen
 
 
-print('Greetings!')
-color = input("What is my favorite color? ")
-print(color)
+print('Greetings!') #displays "Greetings!"
+color = input("What is my favorite color? ") #Its displaying what's in the parenthesis
+print(color) #Its printing the user's input

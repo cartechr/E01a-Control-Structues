@@ -6,7 +6,7 @@ utils.check_version((3,7))          # make sure we are running at least Python 3
 utils.clear()                       # clear the screen
 
 
-print('Greetings!')
+print('Greetings!') #displays "Greetings!"
 colors = ['red','orange','yellow','green','blue','violet','purple']
 play_again = ''
 best_count = sys.maxsize            # the biggest number
@@ -19,7 +19,7 @@ while (play_again != 'n' and play_again != 'no'):
         color = color.lower().strip()
         count += 1
         if (color == match_color):
-            print('Correct!')
+            print('Correct!') #Its printing "Correct!"
         else:
             print('Sorry, try again. You have guessed {guesses} times.'.format(guesses=count))
     print('\nYou guessed it in {0} tries!'.format(count))

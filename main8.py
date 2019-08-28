@@ -6,14 +6,15 @@ utils.check_version((3,7))          # make sure we are running at least Python 3
 utils.clear()                       # clear the screen
 
 
-print('Greetings!')
+print('Greetings!') #displays "Greetings!"
 color = ''
-while (color != 'red'):
-    color = input("What is my favorite color? ")
-    color = color.lower().strip()
-    if (color == 'red'):
-        print('Correct!')
-    elif (color == 'pink'):
-        print('Close!')
-    else:
-        print('Sorry, try again.')
+color = input("What is my favorite color? ") #Its displaying what's in the parenthesis
+while (color != 'red'): #While color does not equal red....
+    
+    color = color.lower().strip() #accepts most answers of red and pink
+    if (color == 'red'): #If color equals red
+        print('Correct!') #Its printing "Correct!"
+elif (color == 'pink'): #If color equals pink....
+        print('Close!') #Its printing "Close!"
+    else: #If color does not equal red or pink....
+        print('Sorry, try again.') #Its printing "Sorry, try again."

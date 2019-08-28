@@ -6,9 +6,9 @@ utils.check_version((3,7))          # make sure we are running at least Python 3
 utils.clear()                       # clear the screen
 
 
-print('Greetings!')
-color = input("What is my favorite color? ")
-if (color == 'Red'):
-    print('Correct!')
-else:
-    print('Sorry, try again.')
+print('Greetings!') #displays "Greetings!"
+color = input("What is my favorite color? ") #Its displaying what's in the parenthesis
+if (color == 'Red'): #Beginning of if else statement. If user's input equals 'Red' ....
+    print('Correct!') #Its printing "Correct!"
+else: #If color does not equal 'Red'
+    print('Sorry, try again.') #Its printing "Sorry, try again." 
